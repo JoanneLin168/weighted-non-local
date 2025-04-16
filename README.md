@@ -1,7 +1,18 @@
-# weighted-non-local
-Implementation of the proposed Weighted Non-Local Blocks (wNLB) from the paper "Multi-Scale Denoising in the Feature Space for Low-Light Instance Segmentation" [ICASSP 2025]
+# Multi-Scale Denoising in the Feature Space for Low-Light Instance Segmentation [ICASSP 2025]
 
-If you use our weighted non-local blocks in your research, please cite our work using the following BibTeX entry:
+**Authors**: _Joanne Lin; Nantheera Anantrasirichai; David Bull_
+
+**Institution**: Visual Information Laboratory, University of Bristol, United Kingdom
+
+[[`Paper`](https://ieeexplore.ieee.org/document/10889336)][[`arXiv`](https://arxiv.org/abs/2402.18307)]
+
+---
+
+> Instance segmentation for low-light imagery remains largely unexplored due to the challenges imposed by such conditions, for example shot noise due to low photon count, color distortions and reduced contrast. In this paper, we propose an end-to-end solution to address this challenging task. Our proposed method implements weighted non-local blocks (wNLB) in the feature extractor. This integration enables an inherent denoising process at the feature level. As a result, our method eliminates the need for aligned ground truth images during training, thus supporting training on real-world low-light datasets. We introduce additional learnable weights at each layer in order to enhance the network’s adaptability to real-world noise characteristics, which affect different feature scales in different ways. Experimental results on several object detectors show that the proposed method outperforms the pre-trained networks with an Average Precision (AP) improvement of at least +7.6, with the introduction of wNLB further enhancing AP by upto +1.3.
+
+This repository provides the implementation of our proposed Weighted Non-Local Blocks (wNLB) from the paper "Multi-Scale Denoising in the Feature Space for Low-Light Instance Segmentation" [ICASSP 2025]
+
+If you use our work in your research, please cite using the following BibTeX entry:
 
 ```bibtex
 @INPROCEEDINGS{lin2025lowlightsegm,
