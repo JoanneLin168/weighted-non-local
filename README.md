@@ -1,6 +1,6 @@
 # Multi-Scale Denoising in the Feature Space for Low-Light Instance Segmentation [ICASSP 2025]
 
-**Authors**: _Joanne Lin; Nantheera Anantrasirichai; David Bull_
+**Authors**: _Joanne Lin, Nantheera Anantrasirichai, David Bull_
 
 **Institution**: Visual Information Laboratory, University of Bristol, United Kingdom
 
